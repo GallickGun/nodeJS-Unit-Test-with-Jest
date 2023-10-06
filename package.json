@@ -4,7 +4,7 @@
   "description": "Learning Jest",
   "main": ".src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "unit",
@@ -13,5 +13,8 @@
     "nodeJS"
   ],
   "author": "GallickGun",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
