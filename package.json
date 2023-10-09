@@ -4,7 +4,7 @@
   "description": "Learning Jest",
   "main": ".src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "jest": {
     "transform": {
